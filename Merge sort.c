@@ -40,7 +40,7 @@ void divide(int arr[],int l,int r)
 void merge(int arr[],int l,int m,int r)
 {
 	int i,j,k,n1,n2;
-	n1=m-1+1;
+	n1=m-l+1;
 	n2=r-m;
 	int L[n1],R[n2];
 	for(i=0;i<n1;i++)
